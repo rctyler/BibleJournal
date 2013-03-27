@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	ED005A3A16F9184300D4624C /* Bible Journal */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Bible Journal";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	ED005A5416F9184800D4624C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	ED005A5516F9184800D4624C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	ED6A108C16F910A200ED7E14 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = ED005A3A16F9184300D4624C /* Bible Journal */;
+		activeTarget = ED6A109316F910A200ED7E14 /* Bible Journal */;
+		codeSenseManager = ED005A5516F9184800D4624C /* Code sense */;
+		executables = (
+			ED005A3A16F9184300D4624C /* Bible Journal */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 385423456;
+			PBXWorkspaceStateSaveDate = 385423456;
+		};
+		sourceControlManager = ED005A5416F9184800D4624C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	ED6A109316F910A200ED7E14 /* Bible Journal */ = {
+		activeExec = 0;
+		executables = (
+			ED005A3A16F9184300D4624C /* Bible Journal */,
+		);
+	};
+	ED6A10C416F910A400ED7E14 /* Bible JournalTests */ = {
+		activeExec = 0;
+	};
+}

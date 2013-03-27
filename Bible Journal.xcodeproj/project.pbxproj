@@ -16,18 +16,31 @@
 		ED6A10AA16F910A300ED7E14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10A916F910A300ED7E14 /* Default.png */; };
 		ED6A10AC16F910A300ED7E14 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10AB16F910A300ED7E14 /* Default@2x.png */; };
 		ED6A10AE16F910A300ED7E14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10AD16F910A300ED7E14 /* Default-568h@2x.png */; };
-		ED6A10B116F910A300ED7E14 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10AF16F910A300ED7E14 /* MainStoryboard.storyboard */; };
-		ED6A10B416F910A300ED7E14 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6A10B316F910A300ED7E14 /* FirstViewController.m */; };
-		ED6A10B616F910A300ED7E14 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10B516F910A300ED7E14 /* first.png */; };
-		ED6A10B816F910A300ED7E14 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10B716F910A300ED7E14 /* first@2x.png */; };
-		ED6A10BB16F910A300ED7E14 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6A10BA16F910A300ED7E14 /* SecondViewController.m */; };
-		ED6A10BD16F910A300ED7E14 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10BC16F910A300ED7E14 /* second.png */; };
-		ED6A10BF16F910A300ED7E14 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10BE16F910A300ED7E14 /* second@2x.png */; };
 		ED6A10C716F910A400ED7E14 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6A10C616F910A400ED7E14 /* SenTestingKit.framework */; };
 		ED6A10C816F910A400ED7E14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6A109716F910A200ED7E14 /* UIKit.framework */; };
 		ED6A10C916F910A400ED7E14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6A109916F910A200ED7E14 /* Foundation.framework */; };
 		ED6A10D116F910A400ED7E14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED6A10CF16F910A400ED7E14 /* InfoPlist.strings */; };
 		ED6A10D416F910A400ED7E14 /* Bible_JournalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6A10D316F910A400ED7E14 /* Bible_JournalTests.m */; };
+		EDA65C0016F9A39100BDA296 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA65BFE16F9A39100BDA296 /* 96-book.png */; };
+		EDA65C0116F9A39100BDA296 /* 187-pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = EDA65BFF16F9A39100BDA296 /* 187-pencil.png */; };
+		EDD25B3B16F91CCD006B0C54 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B3716F91CCD006B0C54 /* FirstViewController.m */; };
+		EDD25B3C16F91CCD006B0C54 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD25B3816F91CCD006B0C54 /* MainStoryboard.storyboard */; };
+		EDD25B3D16F91CCD006B0C54 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B3A16F91CCD006B0C54 /* SecondViewController.m */; };
+		EDD25B5B16F91DF5006B0C54 /* bibleJournalBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDD25B3E16F91DF5006B0C54 /* bibleJournalBanner.jpg */; };
+		EDD25B5C16F91DF5006B0C54 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD25B3F16F91DF5006B0C54 /* icon.png */; };
+		EDD25B5D16F91DF5006B0C54 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD25B4016F91DF5006B0C54 /* icon@2x.png */; };
+		EDD25B6A16F91EE6006B0C54 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B4316F91DF5006B0C54 /* NSObject+SBJson.m */; };
+		EDD25B6B16F91EE6006B0C54 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B4616F91DF5006B0C54 /* SBJsonParser.m */; };
+		EDD25B6C16F91EE6006B0C54 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B4816F91DF5006B0C54 /* SBJsonStreamParser.m */; };
+		EDD25B6D16F91EE6006B0C54 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B4A16F91DF5006B0C54 /* SBJsonStreamParserAccumulator.m */; };
+		EDD25B6E16F91EE6006B0C54 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B4C16F91DF5006B0C54 /* SBJsonStreamParserAdapter.m */; };
+		EDD25B6F16F91EE6006B0C54 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B4E16F91DF5006B0C54 /* SBJsonStreamParserState.m */; };
+		EDD25B7016F91EE6006B0C54 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B5016F91DF5006B0C54 /* SBJsonStreamWriter.m */; };
+		EDD25B7116F91EE6006B0C54 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B5216F91DF5006B0C54 /* SBJsonStreamWriterAccumulator.m */; };
+		EDD25B7216F91EE6006B0C54 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B5416F91DF5006B0C54 /* SBJsonStreamWriterState.m */; };
+		EDD25B7316F91EE6006B0C54 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B5616F91DF5006B0C54 /* SBJsonTokeniser.m */; };
+		EDD25B7416F91EE6006B0C54 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B5816F91DF5006B0C54 /* SBJsonUTF8Stream.m */; };
+		EDD25B7516F91EE6006B0C54 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD25B5A16F91DF5006B0C54 /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,21 +67,47 @@
 		ED6A10A916F910A300ED7E14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		ED6A10AB16F910A300ED7E14 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ED6A10AD16F910A300ED7E14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		ED6A10B016F910A300ED7E14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		ED6A10B216F910A300ED7E14 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		ED6A10B316F910A300ED7E14 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		ED6A10B516F910A300ED7E14 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		ED6A10B716F910A300ED7E14 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		ED6A10B916F910A300ED7E14 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		ED6A10BA16F910A300ED7E14 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		ED6A10BC16F910A300ED7E14 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		ED6A10BE16F910A300ED7E14 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		ED6A10C516F910A400ED7E14 /* Bible JournalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bible JournalTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6A10C616F910A400ED7E14 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		ED6A10CE16F910A400ED7E14 /* Bible JournalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bible JournalTests-Info.plist"; sourceTree = "<group>"; };
 		ED6A10D016F910A400ED7E14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED6A10D216F910A400ED7E14 /* Bible_JournalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bible_JournalTests.h; sourceTree = "<group>"; };
 		ED6A10D316F910A400ED7E14 /* Bible_JournalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bible_JournalTests.m; sourceTree = "<group>"; };
+		EDA65BFE16F9A39100BDA296 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		EDA65BFF16F9A39100BDA296 /* 187-pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "187-pencil.png"; sourceTree = "<group>"; };
+		EDD25B3616F91CCD006B0C54 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EDD25B3716F91CCD006B0C54 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EDD25B3816F91CCD006B0C54 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EDD25B3916F91CCD006B0C54 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EDD25B3A16F91CCD006B0C54 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EDD25B3E16F91DF5006B0C54 /* bibleJournalBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bibleJournalBanner.jpg; sourceTree = "<group>"; };
+		EDD25B3F16F91DF5006B0C54 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EDD25B4016F91DF5006B0C54 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		EDD25B4216F91DF5006B0C54 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		EDD25B4316F91DF5006B0C54 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		EDD25B4416F91DF5006B0C54 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		EDD25B4516F91DF5006B0C54 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		EDD25B4616F91DF5006B0C54 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		EDD25B4716F91DF5006B0C54 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		EDD25B4816F91DF5006B0C54 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		EDD25B4916F91DF5006B0C54 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		EDD25B4A16F91DF5006B0C54 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		EDD25B4B16F91DF5006B0C54 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		EDD25B4C16F91DF5006B0C54 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		EDD25B4D16F91DF5006B0C54 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		EDD25B4E16F91DF5006B0C54 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		EDD25B4F16F91DF5006B0C54 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		EDD25B5016F91DF5006B0C54 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		EDD25B5116F91DF5006B0C54 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		EDD25B5216F91DF5006B0C54 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		EDD25B5316F91DF5006B0C54 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		EDD25B5416F91DF5006B0C54 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		EDD25B5516F91DF5006B0C54 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		EDD25B5616F91DF5006B0C54 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		EDD25B5716F91DF5006B0C54 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		EDD25B5816F91DF5006B0C54 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		EDD25B5916F91DF5006B0C54 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		EDD25B5A16F91DF5006B0C54 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +156,7 @@
 		ED6A109616F910A200ED7E14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EDD25B4116F91DF5006B0C54 /* JSON-Framework */,
 				ED6A109716F910A200ED7E14 /* UIKit.framework */,
 				ED6A109916F910A200ED7E14 /* Foundation.framework */,
 				ED6A109B16F910A200ED7E14 /* CoreGraphics.framework */,
@@ -128,17 +168,18 @@
 		ED6A109D16F910A300ED7E14 /* Bible Journal */ = {
 			isa = PBXGroup;
 			children = (
+				EDA65BFE16F9A39100BDA296 /* 96-book.png */,
+				EDA65BFF16F9A39100BDA296 /* 187-pencil.png */,
+				EDD25B3E16F91DF5006B0C54 /* bibleJournalBanner.jpg */,
+				EDD25B3F16F91DF5006B0C54 /* icon.png */,
+				EDD25B4016F91DF5006B0C54 /* icon@2x.png */,
+				EDD25B3616F91CCD006B0C54 /* FirstViewController.h */,
+				EDD25B3716F91CCD006B0C54 /* FirstViewController.m */,
+				EDD25B3816F91CCD006B0C54 /* MainStoryboard.storyboard */,
+				EDD25B3916F91CCD006B0C54 /* SecondViewController.h */,
+				EDD25B3A16F91CCD006B0C54 /* SecondViewController.m */,
 				ED6A10A616F910A300ED7E14 /* AppDelegate.h */,
 				ED6A10A716F910A300ED7E14 /* AppDelegate.m */,
-				ED6A10AF16F910A300ED7E14 /* MainStoryboard.storyboard */,
-				ED6A10B216F910A300ED7E14 /* FirstViewController.h */,
-				ED6A10B316F910A300ED7E14 /* FirstViewController.m */,
-				ED6A10B516F910A300ED7E14 /* first.png */,
-				ED6A10B716F910A300ED7E14 /* first@2x.png */,
-				ED6A10B916F910A300ED7E14 /* SecondViewController.h */,
-				ED6A10BA16F910A300ED7E14 /* SecondViewController.m */,
-				ED6A10BC16F910A300ED7E14 /* second.png */,
-				ED6A10BE16F910A300ED7E14 /* second@2x.png */,
 				ED6A109E16F910A300ED7E14 /* Supporting Files */,
 			);
 			path = "Bible Journal";
@@ -175,6 +216,39 @@
 				ED6A10CF16F910A400ED7E14 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDD25B4116F91DF5006B0C54 /* JSON-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				EDD25B4216F91DF5006B0C54 /* NSObject+SBJson.h */,
+				EDD25B4316F91DF5006B0C54 /* NSObject+SBJson.m */,
+				EDD25B4416F91DF5006B0C54 /* SBJson.h */,
+				EDD25B4516F91DF5006B0C54 /* SBJsonParser.h */,
+				EDD25B4616F91DF5006B0C54 /* SBJsonParser.m */,
+				EDD25B4716F91DF5006B0C54 /* SBJsonStreamParser.h */,
+				EDD25B4816F91DF5006B0C54 /* SBJsonStreamParser.m */,
+				EDD25B4916F91DF5006B0C54 /* SBJsonStreamParserAccumulator.h */,
+				EDD25B4A16F91DF5006B0C54 /* SBJsonStreamParserAccumulator.m */,
+				EDD25B4B16F91DF5006B0C54 /* SBJsonStreamParserAdapter.h */,
+				EDD25B4C16F91DF5006B0C54 /* SBJsonStreamParserAdapter.m */,
+				EDD25B4D16F91DF5006B0C54 /* SBJsonStreamParserState.h */,
+				EDD25B4E16F91DF5006B0C54 /* SBJsonStreamParserState.m */,
+				EDD25B4F16F91DF5006B0C54 /* SBJsonStreamWriter.h */,
+				EDD25B5016F91DF5006B0C54 /* SBJsonStreamWriter.m */,
+				EDD25B5116F91DF5006B0C54 /* SBJsonStreamWriterAccumulator.h */,
+				EDD25B5216F91DF5006B0C54 /* SBJsonStreamWriterAccumulator.m */,
+				EDD25B5316F91DF5006B0C54 /* SBJsonStreamWriterState.h */,
+				EDD25B5416F91DF5006B0C54 /* SBJsonStreamWriterState.m */,
+				EDD25B5516F91DF5006B0C54 /* SBJsonTokeniser.h */,
+				EDD25B5616F91DF5006B0C54 /* SBJsonTokeniser.m */,
+				EDD25B5716F91DF5006B0C54 /* SBJsonUTF8Stream.h */,
+				EDD25B5816F91DF5006B0C54 /* SBJsonUTF8Stream.m */,
+				EDD25B5916F91DF5006B0C54 /* SBJsonWriter.h */,
+				EDD25B5A16F91DF5006B0C54 /* SBJsonWriter.m */,
+			);
+			name = "JSON-Framework";
+			path = "Bible Journal/JSON-Framework";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,11 +326,12 @@
 				ED6A10AA16F910A300ED7E14 /* Default.png in Resources */,
 				ED6A10AC16F910A300ED7E14 /* Default@2x.png in Resources */,
 				ED6A10AE16F910A300ED7E14 /* Default-568h@2x.png in Resources */,
-				ED6A10B116F910A300ED7E14 /* MainStoryboard.storyboard in Resources */,
-				ED6A10B616F910A300ED7E14 /* first.png in Resources */,
-				ED6A10B816F910A300ED7E14 /* first@2x.png in Resources */,
-				ED6A10BD16F910A300ED7E14 /* second.png in Resources */,
-				ED6A10BF16F910A300ED7E14 /* second@2x.png in Resources */,
+				EDD25B3C16F91CCD006B0C54 /* MainStoryboard.storyboard in Resources */,
+				EDD25B5B16F91DF5006B0C54 /* bibleJournalBanner.jpg in Resources */,
+				EDD25B5C16F91DF5006B0C54 /* icon.png in Resources */,
+				EDD25B5D16F91DF5006B0C54 /* icon@2x.png in Resources */,
+				EDA65C0016F9A39100BDA296 /* 96-book.png in Resources */,
+				EDA65C0116F9A39100BDA296 /* 187-pencil.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,10 +366,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD25B6A16F91EE6006B0C54 /* NSObject+SBJson.m in Sources */,
+				EDD25B6B16F91EE6006B0C54 /* SBJsonParser.m in Sources */,
+				EDD25B6C16F91EE6006B0C54 /* SBJsonStreamParser.m in Sources */,
+				EDD25B6D16F91EE6006B0C54 /* SBJsonStreamParserAccumulator.m in Sources */,
+				EDD25B6E16F91EE6006B0C54 /* SBJsonStreamParserAdapter.m in Sources */,
+				EDD25B6F16F91EE6006B0C54 /* SBJsonStreamParserState.m in Sources */,
+				EDD25B7016F91EE6006B0C54 /* SBJsonStreamWriter.m in Sources */,
+				EDD25B7116F91EE6006B0C54 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				EDD25B7216F91EE6006B0C54 /* SBJsonStreamWriterState.m in Sources */,
+				EDD25B7316F91EE6006B0C54 /* SBJsonTokeniser.m in Sources */,
+				EDD25B7416F91EE6006B0C54 /* SBJsonUTF8Stream.m in Sources */,
+				EDD25B7516F91EE6006B0C54 /* SBJsonWriter.m in Sources */,
 				ED6A10A416F910A300ED7E14 /* main.m in Sources */,
 				ED6A10A816F910A300ED7E14 /* AppDelegate.m in Sources */,
-				ED6A10B416F910A300ED7E14 /* FirstViewController.m in Sources */,
-				ED6A10BB16F910A300ED7E14 /* SecondViewController.m in Sources */,
+				EDD25B3B16F91CCD006B0C54 /* FirstViewController.m in Sources */,
+				EDD25B3D16F91CCD006B0C54 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,14 +410,6 @@
 				ED6A10A116F910A300ED7E14 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		ED6A10AF16F910A300ED7E14 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED6A10B016F910A300ED7E14 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		ED6A10CF16F910A400ED7E14 /* InfoPlist.strings */ = {
@@ -475,6 +554,7 @@
 				ED6A10D916F910A400ED7E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED6A10DA16F910A400ED7E14 /* Build configuration list for PBXNativeTarget "Bible JournalTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +563,7 @@
 				ED6A10DC16F910A400ED7E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
