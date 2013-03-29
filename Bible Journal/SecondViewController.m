@@ -149,13 +149,18 @@
             {
                 [[jsonObjects objectForKey:bookString] setObject:notesTextView.text
                                                       forKey:chapterString];
+                
+                savedNote = notesTextView.text;
             }
             else
             {
                 [[jsonObjects objectForKey:bookString] setObject:@""
                                                           forKey:chapterString];
+                
+                savedNote = @"";
             }
-    
+            
+            
             // Now re-create the JSON structure with the updated dictionary and write to notes.json
             NSData* jsonData = [NSJSONSerialization dataWithJSONObject:jsonObjects
                                 options:NSJSONWritingPrettyPrinted error:&error];
@@ -252,26 +257,24 @@
                                        objectForKey:chapterString];
             savedNote = [notesToDisplay copy];
     
-            //if (notesTextView.textColor == [UIColor lightGrayColor] || [loadButton isTouchInside])
-            //{
-                if ([notesToDisplay isEqualToString:@""])
-                {
-                    notesTextView.text = @"Click here to add your notes...";
-                    [notesTextView setTextColor:[UIColor lightGrayColor]];
-                }
-                else
-                {
-                    notesTextView.text = notesToDisplay;
-                    [notesTextView setTextColor:[UIColor blackColor]];
-                }
-            
-                // Clear the error label just in case, unless it is telling us about an
-                // initialization error
-                if ([errorLabel.text rangeOfString:@"INIT"].location == NSNotFound)
-                {
-                    errorLabel.text = @"";
-                }
-            //}
+            // Add placeholder if there aren't any notes saved for the passage
+            if ([notesToDisplay isEqualToString:@""])
+            {
+                notesTextView.text = @"Click here to add your notes...";
+                [notesTextView setTextColor:[UIColor lightGrayColor]];
+            }
+            else
+            {
+                notesTextView.text = notesToDisplay;
+                [notesTextView setTextColor:[UIColor blackColor]];
+            }
+        
+            // Clear the error label just in case, unless it is telling us about an
+            // initialization error
+            if ([errorLabel.text rangeOfString:@"INIT"].location == NSNotFound)
+            {
+                errorLabel.text = @"";
+            }
         }
         else
         {
