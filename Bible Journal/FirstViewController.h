@@ -23,8 +23,6 @@
     NSMutableDictionary *bookListing;
     NSInteger selectedBook;
     NSInteger selectedChapter;
-    
-    int offsetY;
 }
 
 @property (nonatomic, retain) IBOutlet UIWebView *bibleWebView;
@@ -36,7 +34,7 @@
 @property (nonatomic, retain) IBOutlet NSMutableDictionary *bookListing;
 @property (strong, nonatomic) NSArray *bibleBookColumnList;
 
-- (void)addBibleText;
+- (void)addBibleText:(BOOL)clearUserNotesArea;
 - (void) setupPickerView;
 - (IBAction)verseButtonClicked:(id)sender;
 - (IBAction)prevButtonClicked:(id)sender;

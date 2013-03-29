@@ -54,7 +54,13 @@
         errorLabel.text = @"";
     }
     
-    if (![notesTextView.text isEqualToString:savedNote] && firstTimeToLoadNotes == NO)
+    NSString *notesText = notesTextView.text;
+    if ([notesText isEqualToString:@"Click here to add your notes..."])
+    {
+        notesText = @"";
+    }
+    
+    if (![notesText isEqualToString:savedNote] && firstTimeToLoadNotes == NO)
     {
         errorLabel.text = @"* SAVE NOTES";
     }
@@ -244,7 +250,7 @@
             // Only display the notes pointed to by the keys: booksString and chapterString
             NSString *notesToDisplay= [[jsonObjects objectForKey:bookString]
                                        objectForKey:chapterString];
-            savedNote = notesToDisplay;
+            savedNote = [notesToDisplay copy];
     
             //if (notesTextView.textColor == [UIColor lightGrayColor] || [loadButton isTouchInside])
             //{

@@ -522,8 +522,15 @@ error:
     NSInteger b = [biblePickerView selectedRowInComponent:0];
     NSInteger c = [biblePickerView selectedRowInComponent:1];
     NSString *book = [bibleBookColumnList objectAtIndex:b];
-    NSString *chapter = [[bookListing objectForKey:[bibleBookColumnList objectAtIndex:selectedBook]]
-                         objectAtIndex:c];
+    NSString *chapter = @"";
+    
+    // Because we are using a picker view, the user could conceivably select a chapter from
+    // the second colun while the the first column is spinnning, which may lead to an out-of-bounds
+    // error, so anticipate it with this error-control check.
+    if (c < [[bookListing objectForKey:book] count])
+    {
+        chapter = [[bookListing objectForKey:book] objectAtIndex:c];
+    }
     
     if ([title.text isEqualToString:@"Choose Verse"])
     {
@@ -536,10 +543,6 @@ error:
     }
     else if ([title.text isEqualToString:@"Go to Verse"])
     {
-        prevButton.hidden = NO;
-        nextButton.hidden = NO;
-        biblePickerView.hidden = YES;
-        
         [chooseVerseButton setTitle:@"Choose Verse" forState:UIControlStateNormal];
         [refreshButton setTitle:@"Refresh Page" forState:UIControlStateNormal];
         
@@ -548,10 +551,32 @@ error:
         if (!([v.bookString isEqualToString:book] &&
             [v.chapterString isEqualToString:chapter]))
         {
-            // Grab bible text based on selected book and chapter from the Picker View
-            // Passing "YES" as a parameter tells the Second View Controller to clear the
-            // notes view on its screen
-            [self addBibleText:YES];
+            NSInteger bookSelected = [biblePickerView selectedRowInComponent:0];
+            NSInteger chapterSelected = [biblePickerView selectedRowInComponent:1];
+            NSString *bookString = [bibleBookColumnList objectAtIndex:bookSelected];
+            
+            
+            NSInteger bookSize = [[bookListing objectForKey:bookString] count];
+            
+            // Because we are using a picker view, the user could conceivably select a chapter from
+            // the second colun while the the first column is spinnning, which may lead to an
+            // out-of-bounds error, so anticipate it with this error-control check.
+            if (chapterSelected < bookSize)
+            {
+                // Grab bible text based on selected book and chapter from the Picker View
+                // Passing "YES" as a parameter tells the Second View Controller to clear the
+                // notes view on its screen
+                [self addBibleText:YES];
+                prevButton.hidden = NO;
+                nextButton.hidden = NO;
+                biblePickerView.hidden = YES;
+            }
+        }
+        else
+        {
+            prevButton.hidden = NO;
+            nextButton.hidden = NO;
+            biblePickerView.hidden = YES;
         }
     }
 }
@@ -560,7 +585,6 @@ error:
 {
     NSInteger chapter = [biblePickerView selectedRowInComponent:1];
     NSInteger book = [biblePickerView selectedRowInComponent:0];
-    NSString *bookString = [bibleBookColumnList objectAtIndex:(book)];
 
     // Check bounds
     if (chapter != 0)
@@ -717,8 +741,19 @@ error:
     else
     {
         NSInteger index = [biblePickerView selectedRowInComponent:0];
-        return [[bookListing objectForKey:[bibleBookColumnList objectAtIndex:index]]
-                objectAtIndex:row];
+        
+        // Since the user could conceivably select the second column on the picker while the
+        // first column is still spinning, we make accidently try to access an out of bounds
+        // index in the dictionary, so take that into account here for error checking
+        if (row < [[bookListing objectForKey:[bibleBookColumnList objectAtIndex:index]] count])
+        {
+            return [[bookListing objectForKey:[bibleBookColumnList objectAtIndex:index]]
+                    objectAtIndex:row];
+        }
+        else
+        {
+            return @"";
+        }
     }
 }
 

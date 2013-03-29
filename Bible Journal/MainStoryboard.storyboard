@@ -77,11 +77,11 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKo-NI-HRL">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="ChX-Gm-0tj"/>
+                                    <constraint firstAttribute="height" constant="28" id="GrM-wV-UfA"/>
                                     <constraint firstAttribute="width" constant="166" id="SXo-0x-9N5"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="15"/>
-                                <state key="normal" title="&lt;&lt;">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Last Chapter">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -96,8 +96,8 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="140" id="5Mj-eG-T57"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="15"/>
-                                <state key="normal" title=">>">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Next Chapter">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -116,26 +116,26 @@
                             <constraint firstItem="Lv1-m9-hFK" firstAttribute="leading" secondItem="JO9-yr-oJl" secondAttribute="leading" type="default" id="2c7-fS-7RE"/>
                             <constraint firstItem="FK4-vD-uOR" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="4fv-oA-d4O"/>
                             <constraint firstItem="ab5-E0-bpS" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="75e-Gy-Dq8"/>
-                            <constraint firstItem="yKo-NI-HRL" firstAttribute="bottom" secondItem="Lv1-m9-hFK" secondAttribute="bottom" type="default" id="8x8-Q8-n3l"/>
-                            <constraint firstItem="yKo-NI-HRL" firstAttribute="top" secondItem="Lv1-m9-hFK" secondAttribute="top" type="default" id="B0m-tF-pAg"/>
                             <constraint firstAttribute="trailing" secondItem="Lv1-m9-hFK" secondAttribute="trailing" constant="5" id="CT2-ck-d72"/>
+                            <constraint firstItem="Lv1-m9-hFK" firstAttribute="top" secondItem="yKo-NI-HRL" secondAttribute="top" type="default" id="EV7-QX-PN2"/>
                             <constraint firstAttribute="bottom" secondItem="GLi-Lx-mHt" secondAttribute="bottom" constant="4" id="GbV-zc-jBy"/>
                             <constraint firstItem="3iF-vI-4Vd" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="15" id="KPm-6N-j5s"/>
                             <constraint firstItem="3iF-vI-4Vd" firstAttribute="top" secondItem="ab5-E0-bpS" secondAttribute="top" type="default" id="LXY-F6-DZh"/>
                             <constraint firstItem="yKo-NI-HRL" firstAttribute="trailing" secondItem="GLi-Lx-mHt" secondAttribute="trailing" type="default" id="PQT-Fk-Sih"/>
                             <constraint firstItem="ab5-E0-bpS" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="Pbd-bA-pHV"/>
-                            <constraint firstAttribute="bottom" secondItem="yKo-NI-HRL" secondAttribute="bottom" constant="39" id="QVr-GI-ycS"/>
-                            <constraint firstItem="bRU-w0-uSE" firstAttribute="top" secondItem="16" secondAttribute="top" constant="157" id="VIh-4X-MhS"/>
+                            <constraint firstItem="bRU-w0-uSE" firstAttribute="top" secondItem="16" secondAttribute="top" constant="157" id="RG6-R4-sLb"/>
                             <constraint firstItem="ab5-E0-bpS" firstAttribute="top" secondItem="16" secondAttribute="top" constant="17" id="Wda-dL-y8y"/>
                             <constraint firstItem="XJk-QI-4qP" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="ZRg-OS-dBG"/>
                             <constraint firstItem="bRU-w0-uSE" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="aHu-vj-PgG"/>
                             <constraint firstItem="yKo-NI-HRL" firstAttribute="leading" secondItem="GLi-Lx-mHt" secondAttribute="leading" type="default" id="c4d-aL-Ds1"/>
                             <constraint firstItem="bRU-w0-uSE" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="dAG-Gg-6xS"/>
+                            <constraint firstAttribute="bottom" secondItem="yKo-NI-HRL" secondAttribute="bottom" constant="39" id="g6R-rD-1dD"/>
                             <constraint firstItem="FK4-vD-uOR" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="hwr-FW-ePy"/>
                             <constraint firstItem="3iF-vI-4Vd" firstAttribute="bottom" secondItem="ab5-E0-bpS" secondAttribute="bottom" type="default" id="l2I-xd-a9h"/>
                             <constraint firstItem="GLi-Lx-mHt" firstAttribute="top" secondItem="JO9-yr-oJl" secondAttribute="top" type="default" id="nLb-gF-WQ0"/>
                             <constraint firstItem="Lv1-m9-hFK" firstAttribute="trailing" secondItem="JO9-yr-oJl" secondAttribute="trailing" type="default" id="ocz-EW-EV1"/>
                             <constraint firstItem="FK4-vD-uOR" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="pvb-bg-gfQ"/>
+                            <constraint firstItem="Lv1-m9-hFK" firstAttribute="bottom" secondItem="yKo-NI-HRL" secondAttribute="bottom" type="default" id="tIP-qr-tL9"/>
                             <constraint firstItem="XJk-QI-4qP" firstAttribute="top" secondItem="16" secondAttribute="top" constant="75" id="vSZ-3G-IPe"/>
                             <constraint firstItem="GLi-Lx-mHt" firstAttribute="bottom" secondItem="JO9-yr-oJl" secondAttribute="bottom" type="default" id="x9w-ca-0Ag"/>
                         </constraints>
@@ -356,14 +356,8 @@
                 <relationship kind="outlet" name="refreshButton" candidateClass="UIButton"/>
             </relationships>
         </class>
-        <class className="NSDictionary" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSDictionary.h"/>
-        </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="NSMutableDictionary" superclassName="NSDictionary">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSMutableDictionary.h"/>
         </class>
         <class className="SecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
